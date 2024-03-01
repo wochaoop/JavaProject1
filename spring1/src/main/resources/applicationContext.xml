@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 将指定类配置给 Spring，让 Spring 创建 HelloSpring
+    对象的实例 -->
+    <bean id="helloSpring" class="org.example.spring1.HelloSpring">
+        <!--为 userName 属性赋值-->
+        <property name="userName" value="张某某"/>
+        <property name="studentId" value="20221330xx"/>
+
+    </bean>
+</beans>
